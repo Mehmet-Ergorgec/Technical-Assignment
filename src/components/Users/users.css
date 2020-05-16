@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.user-list {
+  height: 12em;
+  width: 18.7em;
+  overflow: auto;
+  border: 1px solid #bfc5cd;
+  background-color: #ffffff;
+  border-radius: 0.3em;
+  margin: 0;
+  position: relative;
+  padding-left: 1em;
+  left: 2rem;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  line-height: 30px;
+}
+
+li:first-child {
+  padding-top: 0.5em;
+}
+
+li:last-child {
+  padding-bottom: 0.5em;
+}
+
+li:hover {
+  color: #4a4a4a;
+  background-color: #f7f7f7;
+  box-shadow: 0 5px 15px 0 rgba(74, 74, 74, 0.15);
+}
